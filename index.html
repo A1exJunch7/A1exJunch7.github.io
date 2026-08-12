@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Junchi 的 GitHub 风格个人主页"><title>Junchi · GitHub 风格个人主页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="octo" href="#" aria-label="首页">⌘</a>
+    <button class="search">⌕&nbsp;&nbsp; Type <span>/</span> to search</button>
+    <nav><a href="#overview">Overview</a><a href="#repos">Repositories</a><a href="#projects">Projects</a></nav>
+    <div class="actions"><button>＋</button><button>◉</button><span class="mini-avatar">JC</span></div>
+  </header>
+  <div class="profile-tabs"><div></div><a class="active" href="#overview">▣ Overview</a><a href="#repos">▤ Repositories <b>6</b></a><a href="#projects">▦ Projects</a></div>
+
+  <main class="layout" id="overview">
+    <aside class="sidebar">
+      <div class="avatar">JC<span class="status">☺</span></div>
+      <h1>Junchi</h1><div class="username">junchi-dev</div>
+      <p class="bio">独立创作者与产品设计者。用代码和设计，把模糊的想法变成清晰、有趣的作品。</p>
+      <button class="edit">Edit profile</button>
+      <div class="social"><span>👥 <b>28</b> followers · <b>16</b> following</span><span>📍 Shanghai, China</span><span>✉️ hello@example.com</span><span>🔗 junchi.dev</span></div>
+      <h3 class="side-title">Achievements</h3><div class="badges"><span>🏆</span><span>🦈</span><span>🌟</span></div>
+    </aside>
+
+    <section class="content">
+      <article class="readme">
+        <div class="readme-head"><span>junchi-dev / README.md</span><button>✎</button></div>
+        <div class="readme-body"><h2>Hi there, I'm Junchi 👋</h2><p>欢迎来到我的主页！我热衷于探索设计、技术与人的交汇。</p><ul><li>🔭 正在构建有趣、有用的数字产品</li><li>🌱 正在学习 AI 产品设计与全栈开发</li><li>💬 欢迎和我聊设计、效率工具与创意编码</li><li>⚡ Fun fact：喜欢城市漫游、摄影和咖啡</li></ul><h3>Tech & Tools</h3><div class="tech"><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Figma</span><span>AI</span></div></div>
+      </article>
+
+      <div class="section-title" id="repos"><span>Pinned</span><a href="#repos">Customize your pins</a></div>
+      <div class="repo-grid">
+        <article class="repo"><div><a href="#">ai-creative-studio</a><span class="public">Public</span></div><p>把灵感、研究与内容生产串联成一套更顺畅的创作流程。</p><footer><i class="dot ts"></i> TypeScript　☆ 128　⑂ 16</footer></article>
+        <article class="repo"><div><a href="#">city-walk-guide</a><span class="public">Public</span></div><p>一份由个人偏好驱动的城市探索地图。</p><footer><i class="dot js"></i> JavaScript　☆ 86　⑂ 9</footer></article>
+        <article class="repo"><div><a href="#">personal-knowledge-system</a><span class="public">Public</span></div><p>从碎片信息到长期思考的个人知识系统。</p><footer><i class="dot css"></i> CSS　☆ 64　⑂ 7</footer></article>
+        <article class="repo"><div><a href="#">junchi-dev.github.io</a><span class="public">Public</span></div><p>我的个人主页，记录作品、思考与持续创造。</p><footer><i class="dot html"></i> HTML　☆ 32　⑂ 3</footer></article>
+      </div>
+
+      <div class="section-title contributions"><span>386 contributions in the last year</span><a href="#">Contribution settings</a></div>
+      <section class="graph" aria-label="贡献日历"><div class="months"><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span></div><div class="calendar" id="calendar"></div><div class="legend">Learn how we count contributions <span>Less　<i></i><i></i><i></i><i></i><i></i>　More</span></div></section>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© 2026 Junchi</span><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Contact</a><a href="#">GitHub</a></footer>
+  <script>const c=document.getElementById('calendar');for(let i=0;i<364;i++){const e=document.createElement('i');const n=(i*17+i*i*3+11)%13;e.className='day l'+(n>10?4:n>7?3:n>4?2:n>1?1:0);e.title=n+' contributions';c.appendChild(e)}</script>
+</body></html>
